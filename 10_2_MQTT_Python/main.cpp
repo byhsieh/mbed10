@@ -208,7 +208,7 @@ int main() {
 
             printf("rc:  %d\r\n", rc);
             printf("Puslish message: %s\r\n", buff);
-            Countdown.countdown(0.5);
+            Countdown.countdown_ms(500);
             //client.yield(10);
             //publish = false;
       }
